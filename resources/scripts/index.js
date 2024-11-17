@@ -24,8 +24,8 @@ function updateScoreTallyUI(){
 
 // updateGameHistoryUI
 function updateGameHistoryUI(){
-   gameHistoryParagraph.innerHTML = ''; 
-   gameHistoryParagraph.innerHTML = game.gameHistoryLog; 
+  gameHistoryParagraph.innerHTML = ``; 
+  gameHistoryParagraph.innerHTML = game.gameHistoryLog; 
 }
 
 // start-game-button EventListener
@@ -38,7 +38,7 @@ startGameButton.addEventListener(`click`, function (e) {
   gameScreen.classList.remove(`d-none`);
   resetGameButton.classList.remove(`d-none`);
   updateScoreTallyUI();
-     updateGameHistoryUI();
+  updateGameHistoryUI();
   // Complete
 });
 
