@@ -27,5 +27,8 @@
   "dependencies": {
     "@eslint/create-config": "^0.4.6",
     "eslint": "^7.32.0"
-  }
+  },
+  "scripts": {
+    "lint": "eslint --ext .js resources/scripts"
+}
 }
