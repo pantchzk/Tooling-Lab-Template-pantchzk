@@ -23,5 +23,9 @@
     "prettier": "^2.3.0",
     "regenerator-runtime": "^0.13.5",
     "simple-git": "^2.5.0"
+  },
+  "dependencies": {
+    "@eslint/create-config": "^0.4.6",
+    "eslint": "^7.32.0"
   }
 }
